@@ -1,0 +1,27 @@
+.Suggestions-container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Suggestion-container {
+  overflow-x: scroll;
+  display: flex;
+  flex-flow: row;
+  padding-bottom: 16px;
+}
+
+.Suggestion {
+  padding: 0 8px;
+  height: 32px;
+  border: 1px solid rgb(235, 235, 235);
+  white-space: nowrap;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Suggestion:not(:last-of-type) {
+  margin-right: 8px;
+}
